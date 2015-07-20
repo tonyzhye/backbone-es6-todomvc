@@ -1,0 +1,29 @@
+# Directories
+.grunt/
+node_modules/
+logs/
+releases/
+dist/
+public/dist/
+public/images/
+frontend/bower/
+
+.DS_Store
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+results
+
+npm-debug.log
+node_modules
+
+# Files
+# test.pdf
+# test.txt

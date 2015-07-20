@@ -1,0 +1,62 @@
+{
+  "name": "backbone-es6-todomvc",
+  "author": "Tony Ye <tony.zh.ye@gmail.com>",
+  "version": "0.1.0",
+  "description": "todo app with backbonejs",
+  "license": "MIT",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&& node dist/server.js",
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "prod": "gulp build --production"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "keywords": [
+    "todo",
+    "backbone"
+  ],
+  "dependencies": {
+    "getconfig": "^2.1.0",
+    "good": "^6.2.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.0",
+    "hapi-locals": "^0.1.4",
+    "lodash": "^3.10.0",
+    "node-uuid": "^1.4.3",
+    "path": "^0.11.14",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.20",
+    "babel-eslint": "^3.1.23",
+    "babel-loader": "^5.3.1",
+    "css-loader": "^0.15.3",
+    "del": "^1.2.0",
+    "eslint": "^0.24.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "glob": "^5.0.13",
+    "glob-cli": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-develop-server": "^0.4.3",
+    "gulp-eslint": "^0.15.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "merge-stream": "^0.1.8",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.12.3",
+    "text-loader": "0.0.1",
+    "uglify-js": "^2.4.23",
+    "url-loader": "^0.5.6",
+    "yargs": "^3.15.0",
+    "webpack": "^1.10.1"
+  }
+}

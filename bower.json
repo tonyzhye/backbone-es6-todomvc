@@ -1,0 +1,23 @@
+{
+  "name": "backbone-es6-todomvc",
+  "version": "0.1.1",
+  "authors": [
+    "Tony Ye <tony.zh.ye@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.1",
+    "backbone.localstorage": "~1.1.16"
+  },
+  "devDependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ]
+}
